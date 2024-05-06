@@ -22,7 +22,7 @@ const Home = () => {
           <div className="border rounded p-4 text-center">
             <h2>Hello, {user?.name}!</h2>
             {unreadMessages.length === 0 ? (
-              <p>All messages have been read.</p>
+              <p>Welcome to your Inbox</p>
             ) : (
               <p>
                 You have{' '}
