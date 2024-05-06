@@ -30,10 +30,6 @@ const findUserChats = async (req, res) => {
     });
 
     res.status(200).json(chats);
-
-    const response = await newChat.save();
-
-    res.status(200).json(response);
   } catch (error) {
     console.log(error);
     res.status(500).json(error);
