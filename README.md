@@ -23,6 +23,7 @@ This is a full-stack mail inbox application built with Node.js, Express.js, and 
     Create a .env file in the root directory and add the following: 
     JWT_SECRET_KEY = e.g supersecretkeyxxxxxxxx 
     ATLAS_URI=<your_mongodb_uri>
+## POSTMAN COLLECTION CAN BE FOUND IN THE BACKEND DIRECTORY
 
 ## Frontend Setup:
    cd client
